@@ -1,10 +1,8 @@
 ## Inspection of the page
 
-```
-https://2019shell1.picoctf.com/problem/21519/
-```
+page: https://2019shell1.picoctf.com/problem/21519/
 
-```
+```bash
 curl "https://2019shell1.picoctf.com/problem/21519/"
 curl "https://2019shell1.picoctf.com/problem/21519/mycss.css"
 curl "https://2019shell1.picoctf.com/problem/21519/myjs.js"

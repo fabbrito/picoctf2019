@@ -1,6 +1,6 @@
 ## Using the pwntools template cli
 
-```console
+```bash
 pwn template --host 2019shell1.picoctf.com --user ${PICOUSER} --pass ${PICOPASS} --path /problems/handy-shellcode_1_ebc60746fee43ae25c405fc75a234ef5/vuln
 ```
 
