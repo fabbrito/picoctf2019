@@ -1,0 +1,3 @@
+## Flag
+
+picoCTF{w4rm1ng_Up_w1tH_jAv4_7e183572fa2}
